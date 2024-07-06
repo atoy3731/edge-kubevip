@@ -6,3 +6,5 @@ labels:
 helm:
   chart: ./chart
   releaseName: kubevip-config
+  valuesFiles:
+  - values.yaml
