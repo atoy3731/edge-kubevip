@@ -13,4 +13,4 @@ helm:
       address: "10.70.0.40"
     env:
       vip_interface: "eth0"
-      cp_enable: "true"
+      cp_enable: "false"
