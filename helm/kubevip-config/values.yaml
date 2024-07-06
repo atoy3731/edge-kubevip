@@ -1,0 +1,6 @@
+range: 
+  enabled: true
+  value: "10.70.0.50-10.70.0.59"
+cidr: 
+  enabled: false
+  value: "10.70.0.50/28"

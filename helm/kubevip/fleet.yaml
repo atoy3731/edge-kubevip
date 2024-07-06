@@ -1,0 +1,16 @@
+defaultNamespace: kube-system
+
+labels:
+  app: kubevip
+
+helm:
+  repo:  https://kube-vip.github.io/helm-charts
+  chart: kube-vip
+  version: 0.6.1
+  releaseName: kubevip
+  values:
+    config:
+      address: "10.70.0.40"
+    env:
+      vip_interface: "eth0"
+      cp_enable: "true"
